@@ -1,3 +1,5 @@
+#Sequência de Fibonacci v1.0
+
 num = int(input('Digite um número: '))
 t = 0
 ultimo = 1

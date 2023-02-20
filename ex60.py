@@ -1,3 +1,5 @@
+#Cálculo do Fatorial
+
 num = int(input('Digite um número para saber o seu fatorial: '))
 c = 1
 result = 1

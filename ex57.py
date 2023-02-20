@@ -1,9 +1,8 @@
-cond = 1
-sexo = str(input('Digite o seu sexo: ')).upper()
-if sexo == 'F' or sexo == 'M':
-    cond = 0
-while cond != 0:
-    sexo = str(input('Opção invlálida, tente novamente.\nDigite o seu sexo: ')).upper()
-    if sexo == 'F' or sexo == 'M':
-        cond = 0
-print('Fim')
+#Validação de Dados
+while True:
+    sexo = str(input('Digite o seu sexo [M/F]: ')).upper()
+    if sexo != 'F' and sexo != 'M':
+        print('Opção inválida, digite novamente.')
+    else:
+        break
+print('Sexo registrado com sucesso.')

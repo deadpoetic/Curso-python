@@ -1,17 +1,14 @@
-op = 1
+#Criando um Menu de Opções
+op = 4
 n1 = 0
 n2 = 0
-while op == 1:
+while op == 4:
     n1 = int(input('Digite o primeiro número: '))
     n2 = int(input('Digite o segundo número: '))
     op = int(input('Digite\n1=Soma.\n2=Multiplicar.\n3=Maior.\n4=Novos números.\n5=Sair.\n: '))
     while op != 1 and op != 2 and op != 3 and op != 4 and op != 5:
         print('Opção inválida, digite novamente.')
         op = int(input('Digite\n1=Soma.\n2=Multiplicar.\n3=Maior.\n4=Novos números.\n5=Sair.\n: '))
-        while op == 4:
-            n1 = int(input('Digite o primeiro número: '))
-            n2 = int(input('Digite o segundo número: '))
-            op = int(input('Digite\n1=Soma.\n2=Multiplicar.\n3=Maior.\n4=Novos números.\n5=Sair.\n: '))
     res = 0
     maior = 0
     menor = 0

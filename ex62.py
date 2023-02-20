@@ -1,3 +1,5 @@
+#Super Progressão Aritmética v3.0
+
 pt = int(input('Digite o primeiro termo: '))
 raz = int(input('Digite a razão: '))
 numt = int(input('Digite o número de termos a ser mostrado: '))

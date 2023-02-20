@@ -1,3 +1,5 @@
+#Progressão Aritmética v2.0
+
 pt = int(input('Digite o primeiro termo: '))
 raz = int(input('Digite a razão: '))
 t = 0
