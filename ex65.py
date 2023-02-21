@@ -7,12 +7,13 @@ maior = num1
 menor = num1
 while True:
     resp = str(input('Quer continuar? S/N: ')).upper()
+    while resp != 'S' and resp != 'N':
+        print('Opção inválida, digite novamente.')
+        resp = str(input('Quer continuar? S/N: ')).upper()
     if resp == 'N' and c == 1:
         res = 'Você só digitou um número.'
     if c == 2 and num == num1:
         res = 'Os dois valores são iguais'
-    if resp != 'S' and resp != 'N':
-        print('Opção inválida, digite novamente.')
     if resp == 'S':
         c = c + 1
         num = int(input('Digite um número: '))
@@ -29,4 +30,4 @@ while True:
         c1 = c1 + 1
         if c == c1:
             res = 'Todos os valores são iguais'
-print(c, res)
+print(res)
