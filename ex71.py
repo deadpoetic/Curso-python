@@ -1,4 +1,4 @@
-#Simulador de caixa eletronico mais limpo 100%
+#Simulador de caixa eletronico v2 kappa
 s = c1 = v1 = d1 = u1 = resp = 0
 num = int(input('Qual o valor deseja sacar? '))
 while 50 <= num:
@@ -39,7 +39,6 @@ for valor_cedula in lista:
         print(f'{total_cedula},de R${valor_cedula}')
 
 #Simulador de caixa eletrônico
-#Primeira tentativa, 95%
 c = 50
 v = 20
 d = 10
